@@ -1,0 +1,169 @@
+:root {
+    --primary: #B993D6;
+    --secondary: #8CA6DB;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: black;
+}
+
+.signup .btn1 {
+    display: flex;
+    position: relative;
+    right: 95px;
+    text-decoration: none;
+    top: 15px;
+    background: maroon;
+    color: white;
+    border-radius: 7px;
+    width: 65px;
+    border-color: transparent;
+    height: 30px;
+}
+
+.signup .btn2 {
+    display: flex;
+    position: relative;
+    right: 20px;
+    bottom: 15px;
+    text-decoration: none;
+    background: maroon;
+    color: white;
+    border-radius: 7px;
+    height: 30px;
+    width: 55px;
+    border-color: transparent;
+}
+
+.signup button:hover {
+    background-color: grey;
+    color: white;
+
+}
+
+.navbar navbar-expand-lg bg-light {
+    background: black;
+
+
+}
+
+#loginw {
+    position: relative;
+    right: 30px;
+}
+
+#signupw {
+    position: relative;
+    right: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+form .align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+form input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#move {
+    bottom: 250px;
+}
+
+/*#mbtn{
+    margin-bottom: ;
+}*/
+
+.container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 60px;
+    z-index: 5;
+}
+
+.sec {
+    display: block;
+    position: relative;
+    left: 400px;
+}
+
+.carousal {
+    position: relative;
+    top: 108px;
+}
+
+.logo {
+    position: relative;
+    left: 15px;
+}
+
+.back {
+    background: white;
+}
+
+#idsign {
+    text-decoration: none;
+    color: white;
+
+}
+
+.navbar {
+    border-bottom: 5px solid #01BAEF;
+}
+
+#navbarSupportedContent {
+    display: block;
+    position: relative;
+    right: 360px;
+}
+
+#imgdf {
+    max-width: 150px;
+    height: auto;
+    display: flex;
+    position: relative;
+    left: 650px;
+
+
+}
+
+.items {
+    display: flex;
+    justify-content: space-evenly;
+    flex-shrink: 10;
+    position: relative;
+    bottom: 100px;
+    z-index: 7;
+}
+
+
+.items a {
+    margin: 80px;
+}
+
+.d-none {
+    display: none !important;
+
+}
+
+@media (min-width: 800px) {
+    .d-md-block {
+        display: block !important;
+    }
+}

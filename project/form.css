@@ -1,0 +1,32 @@
+*{
+    padding: 10px;
+    margin: 10px 100px ;
+}
+#exampleCheck1{
+    display: flex;
+    position: relative;
+    left: 50px;
+}
+.btn{
+    display: flex;
+    position: relative;
+    left: 100px;
+}
+body{
+    background-image: url("download\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*#obook img{
+    display: flex;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+#obook form{
+    position: absolute;
+    z-index: 4;
+}*/
