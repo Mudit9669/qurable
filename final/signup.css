@@ -1,0 +1,12 @@
+:root{
+    --primary:#01BAEF;
+    --secondary:#20BF55;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+}
