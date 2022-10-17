@@ -1,0 +1,33 @@
+.container{
+    background-color: white;
+    height: 30px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    display: flex;
+    align-items:flex-end;
+    transition: 0.8s;
+    box-shadow: 0,0,25px,0 rgba(0,0,0,0.4);
+    position: relative;
+    left: 50vw;
+
+}
+
+.container:hover {
+    width: 350px;
+
+}
+
+.container input{
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 0;
+    font-weight: 500;
+    font-size: 16px;
+    transition: 0.8s;
+
+}
+.container li .fas{
+    color: white;
+   
+}
