@@ -1,0 +1,316 @@
+:root {
+    --primary: #B993D6;
+    --secondary: #8CA6DB;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+#bbtn{
+    display: block;
+    width: 150px;
+    justify-content: center;
+}
+.signup button:hover {
+    background-color: grey;
+    color: white;
+
+}
+
+.navbar navbar-expand-lg bg-light {
+    background: black;
+    width: 100vw;
+
+
+}
+
+#loginw {
+    position: relative;
+    right: 30px;
+}
+
+#signupw {
+    position: relative;
+    right: 10px;
+}
+
+@media (max-width: 994px) {
+    #signupw {
+        position: absolute;
+        top: 30px;
+        right: 100px;
+
+
+    }
+
+    
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+form .align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+form input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#move {
+    bottom: 250px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.sec {
+    display: block;
+    position: relative;
+    left: 400px;
+}
+
+.logo {
+    position: relative;
+    left: 15px;
+}
+
+.logo img {
+    position: relative;
+    left: 15px;
+    width: 70px;
+    height: 80px;
+    margin-right: 50px;
+}
+
+.back {
+    background: white;
+}
+
+#idsign {
+    text-decoration: none;
+    color: white;
+
+}
+.toggle-responsive{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.navbar {
+    border-bottom: 5px solid #01BAEF;
+}
+
+#navbarSupportedContent {
+    display: block;
+    position: relative;
+    right: 360px;
+}
+
+#imgdf {
+    max-width: 150px;
+    height: auto;
+    display: flex;
+    position: relative;
+    left: 650px;
+
+
+}
+
+.items {
+    display: flex;
+    justify-content: space-evenly;
+    flex-shrink: 10;
+    position: relative;
+    top: 100px;
+    z-index: 7;
+}
+
+
+.items a {
+    margin: 80px;
+}
+
+.d-none {
+    display: none !important;
+
+}
+
+@media (min-width: 800px) {
+    .d-md-block {
+        display: block !important;
+    }
+}
+
+.background__info-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#icond {
+    background-image: url("https://cdn-icons-png.flaticon.com/512/5259/5259008.png");
+    z-index: 5;
+}
+.content{
+    align-items: center;
+    display: flex;
+    z-index: 9;
+    right: 30px;
+    top: 300px;
+    flex-direction: column;
+    padding: 30px;
+}
+.content h1{
+    margin: 20px;
+    font-weight: bolder;
+    color: greenyellow;
+}
+.content p{
+    font-size: x-large;
+    font-weight: 500;
+    color: white;
+}
+.buttn{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    top: 500px;
+    padding: 18px;
+    right: 60px;
+}
+
+@media screen and (min-width: 700px) {
+
+    .backgrd img{
+        height: 40vh;
+    }
+
+    .buttn{
+        flex-direction: row;
+    }
+
+    .background{
+        flex-direction: row!important;
+    }
+}
+
+.bbbtn{
+    margin: 30px;
+    border-radius: 5px;
+    background-color: limegreen;
+    color:#212121;
+    text-decoration: none;
+    border: 1px solid white;
+    width: 100px;
+    height: 40px;
+    font-size: large;
+}
+.bbbtn1{
+    margin: 30px;
+    border-radius: 5px;
+    background-color: limegreen;
+    color:#212121;
+    text-decoration: none;
+    border: 1px solid white;
+    width: 100px;
+    height: 40px;
+    font-size: large;
+}
+.bbbtn2{
+    margin: 30px;
+    border-radius: 5px;
+    background-color: limegreen;
+    color:#212121;
+    text-decoration: none;
+    border: 1px solid white;
+    width: 100px;
+    height: 40px;
+    font-size: large;
+}
+.bbbtn3{
+    margin: 30px;
+    border-radius: 5px;
+    background-color: limegreen;
+    color:#212121;
+    text-decoration: none;
+    border: 1px solid white;
+    width: 100px;
+    height: 40px;
+    font-size: large;
+}
+.bbbtn:hover{
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
+.bbbtn1:hover{
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
+.bbbtn2:hover{
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
+.bbbtn3:hover{
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
+footer{
+    height: 30px;
+}
+.set{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.set h6{
+    display: none;
+}
+.carousel-inner{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.415);
+    border-radius: 15px;
+}
+.vid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vid iframe{
+    border-radius: 15px;
+    margin-bottom: 50px;
+    width: 80vw;
+    height: 80vh;
+}
+footer{
+    border-top: 2px solid white;
+    height: 30px;
+    bottom: 0;
+}
+.map{
+    display: flex;
+    justify-content: center;
+    margin: 12px;
+}
+.map iframe{
+    border-radius: 15px;
+    width: 80vw;
+    height: 80vh;
+}
